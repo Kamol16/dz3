@@ -14,7 +14,7 @@ OPERATORS = {
 }
 
 # Регулярное выражение для проверки корректности имён
-NAME_REGEX = r'^[_a-zA-Z][_a-zA-Z0-9]*$'
+NAME_REGEX = r'^[_a-zA-Z][_a-zA-Z0-9]*$' 
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Конвертер YAML в учебный конфигурационный язык.")

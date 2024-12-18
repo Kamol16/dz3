@@ -7,7 +7,7 @@ def load_yaml_from_string(yaml_data: str):
     try:
         # Обрабатываем YAML-данные из строки
         lines = yaml_data.splitlines()
-        cleaned_lines = []
+        cleaned_lines = [] 
         comments = []
 
         for line_number, line in enumerate(lines):
